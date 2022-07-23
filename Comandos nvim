@@ -1,0 +1,108 @@
+para guardar en modo insetar ctrl s 
+
+abrir un import gd
+para ver donde se usa la declaracion es gr
+para buscar con telescope espacio pf
+
+$ se combina para ir al final de la lina sea seleccionar o eliminar
+
+0 desplaza el cursor al primer carácter de una línea.
+$ desplaza el cursor al final de la línea.
+Mayús+g – Ir a la última línea del fichero.
+gg  – Ir a la última línea del fichero.
+} salta párrafos enteros de arriba hacía abajo.
+{ salta igualmente párrafos pero en sentido opuesto, o sea, de abajo hacia arriba.
+
+ntree nvim
+a crea archivo si termina con / es carpeta y si no es archivo normal
+c copia toda la carpeta
+x corta toda la carpeta
+d elimina preguntando
+D elimina sin preguntar
+r renombrar
+y copar nombre del archivo
+Y copia direccion del archivo
+<C-r>para cambiar el nombre de un archivo y omitir el nombre de archivo en la entrada
+gycopiará la ruta absoluta al portapapeles del sistema
+- para navegar hasta el directorio principal del archivo/directorio actual
+
+buscar
+bd busca por una letra
+bu busca por dos letras
+espacio i muestra todas las lineas de codigo para moverte
+? luego la palabra busca sin el hop
+
+elimnar texto
+x eliminas texto por letra en modo normal
+dw eliminas texto por palabra en modo noraml
+d $ elimina todo lo que sigue de la linea donde se encutre el cursor en modo normal
+
+deshacer y rehacer accion
+u deshace en modo normal
+ctrl r rehace modo normal
+tt duplica linea
+
+copiar y pegar
+d d elimina la linea
+p pega adelante de la palabra dondee esta el cursor
+shft p o P pega atras de la palabra dondee esta el cursor
+
+comentar lineas
+" una linea
+gc comentar linas seleccionadas
+
+subir bajar del archivo
+ctrl u arriba
+ctrl d abajo
+
+mover lo seleccionado
+< > mientras este sleccionado mueve a los lados
+Dkp sube lo seleccionado
+Djp baja lo sleccionado
+reemplazar y cambio
+espacio c busca general
+espacio ca busca palabra en el archio actua
+espacio cp busca la palabra dondee esta el cursor
+espacio cw busca la palabra dondee esta el cursor en modo visual
+:%s/ palabra / reemplazo y si es todas /g global y gc para preguntarte una por una su reemplazo
+
+selecciona dentro de una llave x
+vi { selecciona lo que esta dentro de la llave que esta el cursor
+
+abrir copias pegar remplazar
+o crea una nueva linea abajo
+O crea una nueva linea arriba
+R para reemplazar letra por letra
+v y moverte con el cursor hasta dondee quieras
+
+moverte en el codigo
+h para izquierda
+j para  abajo
+k para  arriba
+l para  la derecha
+w para moverte adelante inicio de la palabra
+e para moverte adelante al final de la palabra
+b para moverte atras por palabra
+v para seleccionar
+gd es para saleccionar la constante dondee estan
+gf es para ir al archivo que selecionas
+ctrl o para regresar a las ubicaciones
+ctrl i para avanzar a las ubicaciones
+numero + operador e, w, b, h, j, k, l te mueves hacia la direcion del operador 
+g g te mueves al inicio del archivo
+G para el final del archivo
+numero mas G te mueves a la linea q quieras y con n despues te mueves entre lo que buscaste
+0 te lleva el inico de la linea
+$ para levarte al final de la linea
+
+funciones de nt
+con s slecionas archivo y abre en otra ventana
+con enter abre el archio en la ventana actual
+
+cambiar de modos
+i para entrar en modo editor antes del cursor
+a para entrar en modo editor despues del cursor
+shift i para insetar al inicio de la linea
+shift a para insertar al final de la linea
+esc dos para salir de editor
+shift e usa para mayusculas y alt gr para el otro modo
