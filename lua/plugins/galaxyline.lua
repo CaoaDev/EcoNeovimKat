@@ -60,7 +60,7 @@ local rightbracket = "" -- Curve.
 -- local rightbracket = u 'e0b1' -- Angle.
 -- }}}2
 
-gl.short_line_list = {'NeoTree', 'vista', 'dbui', 'packer', 'tagbar'}
+gl.short_line_list = {'Neo-tree', 'vista', 'dbui', 'packer', 'tagbar'}
 local gls = gl.section
 
 local bgcolor = function()

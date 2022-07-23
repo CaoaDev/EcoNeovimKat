@@ -16,7 +16,7 @@ keymap("n","0", "^")
 keymap("n","Y", "y$")
 
 --Duplicar lineas
-keymap("n","tt", ":t<CR>", silent)
+keymap("n","tt", ":t.<CR>", silent)
 
 --Hop
 keymap("n", "s", ":HopChar1<CR>", silent)

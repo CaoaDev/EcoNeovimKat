@@ -44,7 +44,7 @@ if vim.fn.has('nvim-0.8') == 1 then
         "dashboard",
         "packer",
         "neogitstatus",
-        "NeoTree",
+        "Neo-tree",
         "Trouble",
         "alpha",
         "lir",
